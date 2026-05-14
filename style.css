@@ -164,3 +164,23 @@ body {
   }
 
 }
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  min-height: 500px;
+}
+
+.product-card img {
+  height: 300px;
+  object-fit: contain;
+
+  background: white;
+  padding: 20px;
+}
+
+.product-card h3 {
+  font-size: 1rem;
+}
